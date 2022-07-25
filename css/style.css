@@ -1,0 +1,264 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+nav span {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  margin-left: -1em;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#logo{
+  height: 8vh;
+}
+
+
+
+nav * {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0em 1em;
+  font-weight: bold;
+
+}
+
+nav li {
+  width: 100%;
+  text-transform: capitalize;
+}
+
+
+
+#nav-bar {
+  background: rgb(46, 50, 63);
+}
+
+
+#first-section {
+  background: rgb(59, 64, 80);
+  height: 50vh;
+  color: white;
+}
+
+.spread {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.pad {
+  gap: 7em;
+  padding: 1em;
+}
+
+header h1 {
+width: 80%;
+  font-size: 3.4em;
+}
+
+
+
+.header-para {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+}
+
+
+.button {
+  background:rgb(165, 150, 120);
+  width: 50%;
+  
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: whitesmoke;
+  padding: 0.3em 1em;
+  border-radius: 30px;
+}
+
+
+#section-two {
+  text-align: center;
+text-transform: capitalize;
+  background: rgb(218, 215, 215);
+  height: 46vh;
+  
+}
+
+#section-two h4 {
+  color: rgb(120, 151, 120);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+}
+
+.profiles {
+  height: 10vh;
+}
+
+
+
+#section-three {
+  background: rgb(255, 255, 255);
+  height: 104vh;
+  padding: 5em 0;
+  
+}
+
+.breakdown h4 {
+  color: rgb(90, 113, 90);
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.facts {
+  text-align: center;
+  width: 30%;
+  padding: 1em;
+  color: whitesmoke;
+}
+
+.facts article {
+  padding: 1em;
+  background: rgb(59, 64, 80);
+  margin-top: 0.7em;
+}
+
+
+.facts h4 {
+  text-transform: capitalize;
+}
+.breakdown {
+  width: 60%;
+}
+
+
+#section-four {
+  height: 40vh;
+  background: rgb(46, 50, 63);
+  color: whitesmoke;
+}
+
+
+#section-four  h3 {
+  text-transform: capitalize;
+  color: rgb(165, 150, 120);
+}
+
+#section-four li {
+  text-transform: capitalize;
+  margin: 1em 0;
+}
+
+#section-four a {
+ color: whitesmoke;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+.foot-note {
+  width: 50%;
+}
+
+.foot-note p{
+  width: 80%;
+}
+
+.spread-around {
+  display: flex;
+  justify-content: space-around;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: rgb(144, 173, 144);
+}
+
+svg {
+  margin-bottom: -60%;
+  text-transform: capitalize;
+
+}
