@@ -75,6 +75,9 @@ nav span {
     color: rgb(141, 175, 136);
 }
 
+h1 {
+  text-transform: capitalize;
+}
 nav * {
   display: flex;
   align-items: center;
