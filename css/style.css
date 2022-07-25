@@ -33,7 +33,11 @@ a {
   margin: auto;
 }
 
-
+@font-face {
+  font-family: 'canobis_freeregular';
+  src: url('/css/font/canobis/canobis-regular-webfont.woff') format('woff'),
+    url('/css/font/canobis/canobis-regular-webfont.woff2') format('woff2');
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -51,7 +55,7 @@ nav {
 nav span {
   font-family: 'Caveat', cursive;
   font-size: 2rem;
-  margin-left: -1em;
+  margin-left: em;
 }
 
 /******************************************
@@ -63,6 +67,13 @@ nav span {
 }
 
 
+#koa {
+  font-family: 'canobis_freeregular';
+  font-size: 5rem;
+  font-weight: normal;
+    font-style:normal;
+    color: rgb(141, 175, 136);
+}
 
 nav * {
   display: flex;
@@ -134,7 +145,7 @@ width: 80%;
   text-align: center;
 text-transform: capitalize;
   background: rgb(218, 215, 215);
-  height: 46vh;
+  height: 38vmax ;
   
 }
 
@@ -146,14 +157,14 @@ text-transform: capitalize;
 }
 
 .profiles {
-  height: 10vh;
+  height: 11vh;
 }
 
 
 
 #section-three {
   background: rgb(255, 255, 255);
-  height: 104vh;
+  height: 75vmax;
   padding: 5em 0;
   
 }
@@ -207,7 +218,7 @@ text-transform: capitalize;
 
 
 #section-four {
-  height: 40vh;
+  height: 30vmax;
   background: rgb(46, 50, 63);
   color: whitesmoke;
 }
