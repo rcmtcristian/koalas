@@ -37,7 +37,10 @@ a {
   font-family: 'canobis_freeregular';
   src: url('/css/font/canobis/canobis-regular-webfont.woff') format('woff'),
     url('/css/font/canobis/canobis-regular-webfont.woff2') format('woff2');
+      font-weight: normal;
+        font-style: normal;
 }
+
 
 /******************************************
 /* BASE STYLES
@@ -162,6 +165,7 @@ text-transform: capitalize;
 
 .profiles {
   height: 11vh;
+  border-radius: 100%;
 }
 
 
