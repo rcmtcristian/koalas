@@ -272,7 +272,7 @@ text {
 }
 
 svg {
-  margin-bottom: -60%;
+  margin-bottom: -5em;
   text-transform: capitalize;
-  height: 30vh;
+  height: 18em;
 }
