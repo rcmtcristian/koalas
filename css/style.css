@@ -38,6 +38,7 @@ a {
   src: url('/css/font/canobis/canobis-regular-webfont.woff') format('woff'),
     url('/css/font/canobis/canobis-regular-webfont.woff2') format('woff2');
 }
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -274,6 +275,6 @@ text {
 svg {
   margin-bottom: -5em;
   text-transform: capitalize;
-  height: 14em;
+  height: 12em;
  
 }
