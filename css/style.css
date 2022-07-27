@@ -50,6 +50,10 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+p {
+  font-family: 'Caveat';
+  font-size: 1.3rem;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -152,7 +156,7 @@ width: 80%;
   text-align: center;
 text-transform: capitalize;
   background: rgb(218, 215, 215);
-  height: 38vmax ;
+  height: 41vmax ;
   
 }
 
@@ -172,7 +176,7 @@ text-transform: capitalize;
 
 #section-three {
   background: rgb(255, 255, 255);
-  height: 75vmax;
+  height: 80vmax;
   padding: 5em 0;
   
 }
